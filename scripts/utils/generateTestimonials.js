@@ -1,7 +1,7 @@
 import {getCommentersData} from "./getCommentersData.js";
 import {getTestimonialsData} from "./getTestimonialsData.js";
 import {createTestimonialCard} from "./createTestimonialCard.js";
-import {testimonialsContent} from "../modules/constants.js";
+import {startTestimonialsCarrousel, testimonialsContent} from "../modules/constants.js";
 
 export async function generateTestimonials() {
     const listTestimonials = await getTestimonialsData();
@@ -18,4 +18,6 @@ export async function generateTestimonials() {
         listComments.push(generatedComment);
     }
     testimonialsContent.append(...listComments);
+
+    startTestimonialsCarrousel();
 }
