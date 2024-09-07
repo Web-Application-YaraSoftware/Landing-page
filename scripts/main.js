@@ -1,4 +1,6 @@
 import '../sass/style.scss'
-import {toggleMenu} from "./modules/eventHandlers.js";
+import {onButtonMobileClick, onWindowResize} from "./modules/eventHandlers.js";
 
-toggleMenu();
+onButtonMobileClick();
+
+onWindowResize();
