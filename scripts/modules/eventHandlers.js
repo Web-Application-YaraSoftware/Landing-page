@@ -9,3 +9,7 @@ export const onButtonMobileClick = () =>{
 export const onWindowResize = () =>{
     window.addEventListener('resize', restoreOptions);
 }
+
+export const onWindowLoad = () =>{
+    window.addEventListener('load', restoreOptions);
+}
