@@ -251,6 +251,36 @@
           </div>
         </div>
       </section>
+      <section class="contact-form" id="contact-us">
+        <div class="contact-form__container">
+          <div class="contact-form__header">
+            <div class="contact-form__complete-title">
+              <img class="contact-form__icon" src="/assets/icon/contact.svg" alt="icono de contactar">
+              <h2 class="contact-form__title">CONTÁCTANOS</h2>
+            </div>
+            <h3 class="contact-form__subtitle">¿Tiene alguna duda? Envíenos su comentario?</h3>
+          </div>
+          <form class="contact-form__form" action="">
+            <label class="contact-form__label" for="name">
+              <p>Nombre</p>
+              <input class="contact-form__input" id="name" type="text" required>
+            </label>
+            <label class="contact-form__label" for="email">
+              <p>Email</p>
+              <input class="contact-form__input" id="email" type="email" required>
+            </label>
+            <label class="contact-form__label" for="celular">
+              <p>Celular</p>
+              <input class="contact-form__input" id="celular" type="number" min="900000000" max="999999999" required>
+            </label>
+            <label class="contact-form__label" for="message">
+              <p>Mensaje</p>
+              <textarea class="contact-form_input contact-form_input--large" id="message" type="text"></textarea>
+            </label>
+            <input class="contact-form__button" type="submit" value="CONTÁCTANOS"></input>
+          </form>
+        </div>
+      </section>
     </main>
     <script type="module" src="/scripts/main.js"></script>
   </body>
