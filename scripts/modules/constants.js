@@ -74,14 +74,21 @@ export const planPremiumFeature6 = document.querySelector('.plan-card:nth-of-typ
 export const planPremiumButton = document.querySelector('.plan-card:nth-of-type(3) .plan-card__button');
 export const contactFormTitle = document.querySelector('.contact-form__title');
 export const contactFormSubtitle = document.querySelector('.contact-form__subtitle');
-export const contactFormNameLabel = document.querySelector('.contact-form__label[for="name"] p');
-export const contactFormEmailLabel = document.querySelector('.contact-form__label[for="email"] p');
-export const contactFormPhoneLabel = document.querySelector('.contact-form__label[for="celular"] p');
-export const contactFormMessageLabel = document.querySelector('.contact-form__label[for="message"] p');
+export const contactFormNameLabel = document.querySelector('.contact-form__label[for="name"] span');
+export const contactFormEmailLabel = document.querySelector('.contact-form__label[for="email"] span');
+export const contactFormPhoneLabel = document.querySelector('.contact-form__label[for="phone"] span');
+export const contactFormMessageLabel = document.querySelector('.contact-form__label[for="message"] span');
 export const contactFormSubmitButton = document.querySelector('.contact-form__button');
 export const signUpTitle = document.querySelector('.sign-up__title');
 export const signUpButton = document.querySelector('.sign-up__button');
-export const usefulLinksTitles = document.querySelectorAll('.useful-links__title');
+export const usefulLinksTitles = document.querySelector('.useful-links__title')
+export const usefulLinks1 = document.querySelector('.useful-links__item:nth-of-type(1) a');
+export const usefulLinks2 = document.querySelector('.useful-links__item:nth-of-type(2) a');
+export const usefulLinks3 = document.querySelector('.useful-links__item:nth-of-type(3) a');
+export const usefulLinks4 = document.querySelector('.useful-links__item:nth-of-type(4) a');
+export const usefulLinks5 = document.querySelector('.useful-links__item:nth-of-type(5) a');
+export const usefulLinks6 = document.querySelector('.useful-links__item:nth-of-type(6) a');
+export const usefulLinks7 = document.querySelector('.useful-links__item:nth-of-type(7) a');
 export const contactTitle = document.querySelector('.contact__title');
 export const contactPhone = document.querySelector('.contact__item:nth-child(1) p');
 export const contactEmail = document.querySelector('.contact__item:nth-child(2) p');

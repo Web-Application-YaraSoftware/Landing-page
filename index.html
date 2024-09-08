@@ -19,11 +19,11 @@
         <img class="navbar__icon-menu" id="display-button" src="/assets/icon/menu.svg" alt="Icon of menu">
         <div class="navbar__complete-list">
           <ul class="navbar__list">
-            <li class="navbar__link"><a href="/">Conoce mas</a></li>
-            <li class="navbar__link"><a href="/">Beneficios</a></li>
-            <li class="navbar__link"><a href="/">Testimonios</a></li>
-            <li class="navbar__link"><a href="/">Nosotros</a></li>
-            <li class="navbar__link"><a href="/">Plan</a></li>
+            <li class="navbar__link"><a href="#know-more">Conoce mas</a></li>
+            <li class="navbar__link"><a href="#benefits">Beneficios</a></li>
+            <li class="navbar__link"><a href="#testimonials">Testimonios</a></li>
+            <li class="navbar__link"><a href="#about-us">Nosotros</a></li>
+            <li class="navbar__link"><a href="#plan">Plans</a></li>
           </ul>
           <div class="navbar__buttons">
             <button class="navbar__button navbar__button--white"><a href="/">Registrarse</a></button>
@@ -40,7 +40,7 @@
       <figure class="banner">
         <figcaption class="banner__content">
           <h1 class="banner__title">Digitaliza la gestión de tu taller y mejora tu relación con tus clientes</h1>
-          <button class="banner__button"><a href="/">COMENZAR</a></button>
+          <button class="banner__button"><a href="#know-more">COMENZAR</a></button>
         </figcaption>
       </figure>
     </header>
@@ -53,7 +53,7 @@
         <img class="know-more__img" src="/assets/img/know-more.webp" alt="Illustrative photo learn more">
         <div class="know-more__content">
           <p class="know-more__info">Conoce Workshop N-GINE, una plataforma que te permite gestionar las tareas de tu taller e interactuar con tus clientes de una forma totalmente nueva.</p>
-          <button class="know-more__button"><a href="/">Contactanos</a></button>
+          <button class="know-more__button"><a href="#contact-us">Contactanos</a></button>
         </div>
       </section>
       <section class="our-benefits"  id="benefits">
@@ -268,19 +268,19 @@
           </div>
           <form class="contact-form__form" action="">
             <label class="contact-form__label" for="name">
-              <p>Nombre</p>
+              <span>Nombre</span>
               <input class="contact-form__input" id="name" type="text" required>
             </label>
             <label class="contact-form__label" for="email">
-              <p>Email</p>
+              <span>Email</span>
               <input class="contact-form__input" id="email" type="email" required>
             </label>
-            <label class="contact-form__label" for="celular">
-              <p>Celular</p>
-              <input class="contact-form__input" id="celular" type="number" min="900000000" max="999999999" required>
+            <label class="contact-form__label" for="phone">
+              <span>Celular</span>
+              <input class="contact-form__input" id="phone" type="number" min="900000000" max="999999999" required>
             </label>
             <label class="contact-form__label" for="message">
-              <p>Mensaje</p>
+              <span>Mensaje</span>
               <textarea class="contact-form_input contact-form_input--large" id="message" type="text"></textarea>
             </label>
             <input class="contact-form__button" type="submit" value="CONTÁCTANOS"></input>
