@@ -21,16 +21,24 @@ import {
     benefit4Subtitle,
     benefit4Title,
     benefitSubtitle,
-    benefitTitle, contactAddress, contactEmail,
-    contactFormEmailLabel, contactFormMessageLabel,
+    benefitTitle,
+    contactAddress,
+    contactEmail,
+    contactFormEmailLabel,
+    contactFormMessageLabel,
     contactFormNameLabel,
-    contactFormPhoneLabel, contactFormSubmitButton,
+    contactFormPhoneLabel,
+    contactFormSubmitButton,
     contactFormSubtitle,
-    contactFormTitle, contactPhone, contactTitle, copyrightText,
+    contactFormTitle,
+    contactPhone,
+    contactTitle,
+    copyrightText,
     knowMoreButton,
     knowMoreInfo,
     knowMoreSubtitle,
-    knowMoreTitle, legalTitle,
+    knowMoreTitle,
+    legalTitle,
     navbarButtonLogIn,
     navbarButtonSignUp,
     navbarItemAboutUs,
@@ -65,9 +73,20 @@ import {
     planPremiumFeature6,
     planPremiumPrice,
     planPremiumTitle,
-    planTitle, privacyPolicyText, signUpButton, signUpTitle, termsConditionsText,
+    planTitle,
+    privacyPolicyText,
+    signUpButton,
+    signUpTitle,
+    termsConditionsText,
     testimonialSubtitle,
-    testimonialTitle, usefulLinksTitles
+    testimonialTitle,
+    usefulLinks1,
+    usefulLinks2,
+    usefulLinks3,
+    usefulLinks4,
+    usefulLinks5,
+    usefulLinks6, usefulLinks7,
+    usefulLinksTitles
 } from "../modules/constants.js";
 import i18next from "i18next";
 
@@ -146,6 +165,13 @@ export function updateContent() {
     signUpTitle.innerHTML = i18next.t("signUpTitle");
     signUpButton.innerHTML = i18next.t("signUpButtonText");
     usefulLinksTitles.innerHTML = i18next.t("usefulLinksTitle");
+    usefulLinks1.innerHTML = i18next.t("usefulLinksHome");
+    usefulLinks2.innerHTML = i18next.t("usefulLinksKnowMore");
+    usefulLinks3.innerHTML = i18next.t("usefulLinksBenefits");
+    usefulLinks4.innerHTML = i18next.t("usefulLinksTestimonials");
+    usefulLinks5.innerHTML = i18next.t("usefulLinksAboutUs");
+    usefulLinks6.innerHTML = i18next.t("usefulLinksPlans");
+    usefulLinks7.innerHTML = i18next.t("usefulLinksContact");
     contactTitle.innerHTML = i18next.t("contactTitle");
     contactPhone.innerHTML = i18next.t("contactPhone");
     contactEmail.innerHTML = i18next.t("contactEmail");
