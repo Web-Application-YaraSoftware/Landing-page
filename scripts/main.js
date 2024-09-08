@@ -1,5 +1,11 @@
 import '../sass/style.scss'
-import {onButtonMobileClick, onLanguageSelectChange, onWindowLoad, onWindowResize} from "./modules/eventHandlers.js";
+import {
+    onButtonMobileClick,
+    onLanguageSelectChange,
+    onWindowLoad,
+    onWindowResize,
+    onWindowScroll
+} from "./modules/eventHandlers.js";
 import {updateContent} from "./utils/updateContent.js";
 import i18next from "i18next";
 import en from '../i18n/en.json';
@@ -20,5 +26,7 @@ onButtonMobileClick();
 onWindowResize();
 
 onWindowLoad();
+
+onWindowScroll();
 
 onLanguageSelectChange();
