@@ -98,7 +98,6 @@ export const privacyPolicyText = document.querySelector('.legal__link:nth-child(
 export const termsConditionsText = document.querySelector('.legal__link:nth-child(2) p');
 export const copyrightText = document.querySelector('.footer__copyright');
 
-let maxScrollLeft = testimonialsContent.scrollWidth - testimonialsContent.clientWidth;
 let interval = null;
 
 export let stepCarrousel = 1;
@@ -108,13 +107,15 @@ export let stopTestimonialsCarrousel = () =>{
     clearInterval(interval);
 };
 export let startTestimonialsCarrousel = () =>{
+    let maxScrollLeft = testimonialsContent.scrollWidth - testimonialsContent.clientWidth;
     stepCarrousel =  1;
     isActiveCarrousel = true;
     interval = setInterval(()=>{
         testimonialsContent.scrollLeft = testimonialsContent.scrollLeft + stepCarrousel;
         if(testimonialsContent.scrollLeft === maxScrollLeft) stepCarrousel = stepCarrousel * -1;
         if(testimonialsContent.scrollLeft === 0) stepCarrousel = stepCarrousel * -1;
-        /*console.log(stepCarrousel)*/
+        /*console.log(stepCarrousel, testimonialsContent.scrollLeft, maxScrollLeft)
+        console.log(stepCarrousel)*/
     }, 15);
 };
 export let isActiveCarrousel = false;
