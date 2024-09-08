@@ -4,6 +4,7 @@ import {restoreOptions} from "../utils/restoreOptions.js";
 import {generateTestimonials} from "../utils/generateTestimonials.js";
 import {updateLanguage} from "../utils/updateLanguage.js";
 import {changeNavbarColor} from "../utils/changeNavbarColor.js";
+import {verifyTestimonialsCarrousel} from "../utils/verifyTestimonialsCarrousel.js";
 
 export const onButtonMobileClick = () =>{
     buttonMobile.addEventListener('click', showOptions);
@@ -20,6 +21,7 @@ export const onWindowLoad = () =>{
 export const onWindowScroll = () =>{
     window.addEventListener('scroll', ()=>{
        changeNavbarColor();
+       verifyTestimonialsCarrousel();
     });
 }
 
