@@ -8,7 +8,7 @@ export const testimonialsContent = document.querySelector('div.testimonials__con
 export const languageSelect = document.querySelector('#language-select');
 
 export const bannerTitle = document.querySelector('.banner__title');
-export const bannerButton = document.querySelector('.banner__button');
+export const bannerButton = document.querySelector('.banner__button a');
 export const navbarItemKnowMore = document.querySelector('.navbar__list li:nth-child(1) a');
 export const navbarItemBenefits = document.querySelector('.navbar__list li:nth-child(2) a');
 export const navbarItemTestimonials = document.querySelector('.navbar__list li:nth-child(3) a');
@@ -80,7 +80,7 @@ export const contactFormPhoneLabel = document.querySelector('.contact-form__labe
 export const contactFormMessageLabel = document.querySelector('.contact-form__label[for="message"] span');
 export const contactFormSubmitButton = document.querySelector('.contact-form__button');
 export const signUpTitle = document.querySelector('.sign-up__title');
-export const signUpButton = document.querySelector('.sign-up__button');
+export const signUpButton = document.querySelector('.sign-up__button a');
 export const usefulLinksTitles = document.querySelector('.useful-links__title')
 export const usefulLinks1 = document.querySelector('.useful-links__item:nth-of-type(1) a');
 export const usefulLinks2 = document.querySelector('.useful-links__item:nth-of-type(2) a');
